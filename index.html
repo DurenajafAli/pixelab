@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pixlab</title>
+    <link rel="stylesheet" href="pixlab.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9c1668d95b.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+        <!-- sec1 Start -->
+        <div class="sec1 w-full h-[150vh]  p-1 border-box">
+            <nav class=" w-full h-28  lg:flex justify-evenly items-center lg:-mt-4 p-1 border-box">
+                <img class="w-40 h-10 mt-2" src="./images/logo-1.png" alt="">
+                <ul class="hidden lg:block mainul w-3/5 h-20  lg:flex justify-evenly items-center text-lg relative">
+                    <li class="text-[#6F6EEB] demos">Demos
+                        <i class="text-xs fa-solid fa-angle-down"></i>
+                        <hr class="hr1">
+                        <div class="down1 duration-500 absolute rounded-lg w-60 h-28 bg-white mt-6">
+                            <ul class="parentul absolute mt-5 duration-500">
+                                <li class="childli duration-500 hover:text-[#6F6EEB;] mt-0 px-5 text-black">Multiple
+                                    Page
+                                    <ul
+                                        class="secondul duration-500  absolute bg-white ml-[94%] w-60 h-48 rounded-lg -mt-5">
+                                        <li class="mt-4 px-5 hover:text-[#6F6EEB;] text-black">Creative Agency</li>
+                                        <li class="px-5 mt-4 hover:text-[#6F6EEB;] text-black">Digital Agency</li>
+                                        <li class="px-5 mt-4 hover:text-[#6F6EEB;] text-black">Design Studio</li>
+                                        <li class="px-5 mt-4 hover:text-[#6F6EEB;] text-black">Design Studio Dark</li>
+                                    </ul>
+                                    <i class="ml-16 fa-solid fa-angle-down"></i>
+                                </li>
+                                <li class="childli duration-500 childli1 hover:text-[#6F6EEB;] mt-5 px-5 text-black">One
+                                    Page
+                                    <ul class="thirdul duration-500  absolute bg-white ml-[94%] w-60 h-48 rounded-lg">
+                                        <li class="hover:text-[#6F6EEB] mt-4 px-5">Creative Agency</li>
+                                        <li class="px-5 mt-4 hover:text-[#6F6EEB] text-black">Digital Agency</li>
+                                        <li class="px-5 mt-4 hover:text-[#6F6EEB] text-black">Design Studio</li>
+                                        <li class="px-5 mt-4 hover:text-[#6F6EEB] text-black">Design Studio Dark</li>
+                                    </ul>
+                                    <i class="ml-24 fa-solid fa-angle-down"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="service">Services
+                        <i class="text-xs fa-solid fa-angle-down"></i>
+                        <hr class="hr1 hr2">
+                        <div class="down2 duration-500 absolute rounded-lg w-60 h-28 bg-white mt-6 ">
+                            <ul class="parentul absolute mt-5">
+                                <li class="px-5 text-black hover:text-[#6F6EEB]">Our Service</li>
+                                <li class="px-5 mt-4 text-black hover:text-[#6F6EEB]">Service Details</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="portfolio">portfolio
+                        <i class="text-xs fa-solid fa-angle-down"></i>
+                        <hr class="hr2 hr3">
+                        <div class="down3 duration-500 absolute rounded-lg w-60 h-28 bg-white mt-6 ">
+                            <ul class="parentul absolute mt-5">
+                                <li class="px-5 text-black hover:text-[#6F6EEB] ">Our Portfolio</li>
+                                <li class="px-5 mt-4 text-black hover:text-[#6F6EEB]">Portfolio Details</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="page">Pages
+                        <i class="text-xs fa-solid fa-angle-down"></i>
+                        <hr class="hr2 hr4">
+                        <div class="down4 duration-500 absolute rounded-lg w-60 h-40 bg-white mt-6 ">
+                            <ul class="parentul absolute mt-5">
+                                <li class="px-5 text-black hover:text-[#6F6EEB]">About us</li>
+                                <li class="px-5 mt-4 text-black hover:text-[#6F6EEB]">Our Team</li>
+                                <li class="px-5 mt-4 text-black hover:text-[#6F6EEB]">Team Details</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="blog">Blog
+                        <i class="text-xs fa-solid fa-angle-down"></i>
+                        <hr class="hr2 hr5">
+                        <div class="down5 duration-500 absolute rounded-lg w-60 h-28 bg-white mt-6 ">
+                            <ul class="parentul absolute mt-5">
+                                <li class="px-5 text-black hover:text-[#6F6EEB] ">Our Blog</li>
+                                <li class="px-5 mt-4 text-black hover:text-[#6F6EEB]">Blog Details</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="demos">Contact
+                        <i class="text-xs fa-solid fa-angle-down"></i>
+                        <hr class="hr2 hr6">
+                    </li>
+                </ul>
+                <img class="hidden lg:block px-3 py-3  bg-[#6F6EEB] rounded-lg" src="./images/dot.png" alt="">
+                <i class="text-3xl ml-[260px] block -mt-9 sm:ml-[582px] md:ml-[710px] lg:hidden fa-solid fa-bars"></i>
+            </nav>
+            <hr class="hr7 hidden  lg:block">
+            <div class="shape w-32 h-32  mt-7 ml-28 lg:mt-20 lg:ml-7">
+                <img src="./images/shape-1.png" alt="">
+                <div
+                    class="w-4 h-4 border-2 border-[#6F6EEB] rounded-full -mt-10 ml-[45px]  sm:ml-60 md:ml-[460px] xl:hidden ">
+                </div>
+            </div>
+            <div class="w-full h-3/5 flex">
+                <div class="w-full h-[80vh] lg:w-[100%] xl:w-1/2">
+                    <h1
+                        class="w-auto ml-3 text-[40px] font-bold leading-tight  sm:text-[42px] sm:ml-6 md:text-[70px] md:leading-[75px] lg:text-[96px] lg:leading-[85px]  xl:text-[75px]">
+                        Brand, Design &
+                        Development
+                        Agency
+                    </h1>
+                    <p
+                        class="w-auto ml-3 text-[18px] leading-relaxed text-[#808285] mt-10  sm:text-[20px] sm:ml-6 lg:w-auto">
+                        Sit amet consectetur adipiscing elit sed do
+                        eiusmod tem porincididunt ut labore et dolore
+                        magna aliqua. Quis psum suspendisse ultrices
+                        gravida commodo viverra
+                    </p>
+                    <button
+                        class="btn1 border-none ml-3 w-44 h-14 mt-10 rounded-lg bg-[#5956E9] text-white border-2  sm:ml-6">
+                        Let's Talk Us >
+                    </button>
+
+                    <i
+                        class="plus ml-32 text-lg block mt-12 text-[#5956E9]  sm:mt-16 sm:ml-64 md:ml-80 md:mt-16 lg:ml-[400px] xl:ml-[600px]  lg:mt-5 fa-solid fa-plus"></i>
+                </div>
+                <div class="w-[50%] h-[80vh] xl:block hidden">
+                    <div class="hero w-[70%] h-[100vh]  -mt-20 ml-4  rounded-[250px] p-1 border-box xl:block">
+                        <div class="w-4 h-4 border-2 hidden border-[#6F6EEB] rounded-full ml-24 mt-4 xl:block "></div>
+                        <img class="mt-96 ml-4 hidden xl:block" src="./images/circle-logo-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sec1 End -->
+        <!-- sec2 Start -->
+        <div class="w-full p-1 border-box overflow-hidden">
+            <div class="w-[93%] mx-auto  mt-20 lg:flex">
+                <div class="w-[50%]">
+                    <div
+                        class="aboutimg  lg:h-[110vh]  rounded-[250px] lg:w-[90%] xl:w-[85%] xl:rounded-[250px]  text-[10px] w-[272px] h-[420px] sm: sm:h-[110vh] sm:ml-1 sm:w-[170%] md:w-[142%]   ">
+                        <img class="circle mt-[250px] absolute lg:w-[15%] lg:-ml-5 xl:ml-1  -ml-1 sm:mt-[480px]"
+                            src="./images/circle-logo-2.png" alt="">
+                    </div>
+                </div>
+                <div class="w-[100%] md:w-[50%] py-5">
+                    <h1 class="text-[#6663EB] text-3xl font-bold">
+                        About Us
+                    </h1>
+                    <h2
+                        class="lg:tracking-[1.65px] font-bold lg:text-[45px] lg:w-[525px] lg:leading-[50px] lg:ml-1 leading-[35px] mt-10 text-[30px] font-bold leading-[35px] w-[282px] h-[26px]  sm:w-[200%] md:text-[50px] md:leading-[55px]">
+                        We’re Creative Agency Since 1993
+                    </h2>
+                    <h3
+                        class="text-[#6663EB] font-bold lg:text-[22px] lg:w-auto lg:ml-1 lg:tracking-[0.66px] lg:leading-[25px]  lg:mt-28 w-[300px] text-[24px] mt-20 sm:w-[195%]  sm:mt-9 md:mt-28">
+                        Professional Design Agency to provide solutions
+                    </h3>
+                    <p
+                        class="lg:text-[18px] lg:leading-[32px] lg:w-auto text-[#9B9D9F] lg:ml-1 lg:mt-6 mt-6 text-[18px] w-[300px] leading-[34px]   sm:w-[500px] md:w-[660px]">
+                        On the other hand denounce with righteous and dislike men who beguile and demoralizes by the
+                        charms
+                        of pleasure thes
+                        moment, so blinded by desire that they cannot
+                    </p>
+                    <div class="w-7 h-7 mt-5 lg:ml-1 rounded-full bg-[#6663EB]  ">
+                        <i class="text-white  ml-[6px] mt-[6px] fa-solid fa-check"></i>
+                        <h1 class="font-bold lg:text-[18px] lg:ml-10 lg:leading-[32px] w-[570px] ml-10 -mt-7  sm:">
+                            Digital Creative Agency
+                        </h1>
+                    </div>
+                    <div class="w-7 h-7 mt-5 lg:ml-1  rounded-full bg-[#6663EB] ">
+                        <i class="text-white  ml-[6px] lg:mt-2 mt-[6px] fa-solid fa-check"></i>
+                        <h1 class="font-bold lg:text-[18px] leading-[32px] w-[570px] ml-10 -mt-7 text-[16px]  sm:">
+                            Professional Problem Solutions
+                        </h1>
+                    </div>
+                    <div class="w-7 h-7 mt-5 lg:ml-1  rounded-full bg-[#6663EB] ">
+                        <i class="text-white ml-[6px]  mt-[6px] fa-solid fa-check"></i>
+                        <h1 class="font-bold lg:text-[18px] leading-[32px] w-[570px] ml-10 -mt-7 text-[16px] sm:">
+                            Web Design & Development
+                        </h1>
+                    </div>
+                    <button
+                        class="btn2  w-44 h-14 mt-8 lg:ml-1 bg-white  rounded-lg border-2 border-[#5956E9] text-[#5956E9]">
+                        Learn More Us >
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- sec2 End -->
+        <!-- sec3 start -->
+        <div class="w-full h-auto py-10  p-1 border-box">
+            <h1 class="text-center text-[24px] font-bold leading-[32px] text-[#6F6EEB] mt-5">
+                Services
+            </h1>
+            <p class="text-center lg:text-[40px] lg:font-bold lg:leading-[60px] lg:tracking-[1.65px] lg:mt-0 text-[30px] leading-[40px] mt-5 md:text-[55px] md:py-7">
+                Creative Design Solutions
+            </p>
+            <h2 class="text-center lg:text-[23px] lg:leading-[32px] lg:font-medium text-[#808285] lg:-mt-3 text-[25px] mt-5 leading-[28px]  sm:">
+                Professional Design Agency to provide solutions
+            </h2>
+<div class="w-[93%]  mx-auto mt-10 md:flex-row lg:flex lg:gap-8">
+<div class="card1 w-auto bg-[#FAFAFB] md:w-[45%] md:mx-auto   py-8 border-2 border-gray-200 rounded-xl mt-5  w-auto sm:">
+    <i class="lg:text-[75px] lg:ml-10 lg:mt-10 text-[60px] mt-2 ml-8 sm: fa-solid fa-building-flag"></i>
+<h1 class="lg:text-[25px] lg:font-bold lg:leading-[35px] lg:mt-5 lg:ml-10 text-[20px] ml-8 mt-5 font-bold sm:font-bold md:">
+Strategy
+</h1>
+<i class="lg:ml-10 lg:mt-4 lg:text-gray-500 fa-solid fa-arrow-right hover:text-black ml-8 mt-5 sm:"></i>
+<p class="lg:text-[18px] hover:text-black lg:ml-16 lg:-mt-6  lg:font-medium lg:text-gray-500 ml-14 -mt-6  sm:">
+    Product Management
+</p>
+<i class="lg:ml-10 lg:mt-4 lg:text-gray-500 fa-solid fa-arrow-right hover:text-black ml-8 mt-5 sm: "></i>
+<p class="lg:text-[18px] lg:ml-16 lg:-mt-6  lg:font-medium lg:text-gray-500 hover:text-black ml-14 -mt-6 sm:">
+    MVP Definition
+</p>
+<i class="lg:ml-10 lg:mt-4 lg:text-gray-500 hover:text-black ml-8 mt-5 sm: fa-solid fa-arrow-right"></i>
+<p class="lg:text-[18px] lg:ml-16 lg:-mt-6  lg:font-medium lg:text-gray-500 hover:text-black ml-14 -mt-6 sm: ">
+    Product Strategy
+</p>
+<h2 class="lg:underline lg:text-[#5956E9] lg:ml-10 lg:mt-4 lg:text-[18px] lg:font-bold hover:text-[#0056B3] ml-8 mt-5 sm:">
+Read More
+</h2>
+<i class="lg:ml-36 block -mt-5 lg:text-[#5956E9] hover:text-[#0056B3] ml-[120px] sm: fa-solid fa-arrow-right"></i>
+</div>
+<div class="card1 w-auto bg-[#FAFAFB] md:w-[45%]  py-8 border-2 border-gray-200 rounded-xl mt-5 w-auto  sm: ">
+    <i class="lg:text-[75px] lg:ml-10 lg:mt-10 text-[60px] mt-2 ml-8 sm: fa-solid fa-building-flag"></i>
+    <h1 class="lg:text-[25px] lg:font-bold lg:leading-[35px] lg:mt-5 lg:ml-10 text-[20px] ml-8 mt-5 font-bold sm:font-bold md:">
+        Product Design
+    </h1>
+    <i class="lg:ml-10 lg:mt-4 lg:text-gray-500 fa-solid fa-arrow-right hover:text-black ml-8 mt-5 sm:"></i>
+    <p class="lg:text-[18px] hover:text-black lg:ml-16 lg:-mt-6  lg:font-medium lg:text-gray-500 ml-14 -mt-6 sm:">
+        Product Management
+    </p>
+    <i class="lg:ml-10 lg:mt-4 lg:text-gray-500 fa-solid fa-arrow-right hover:text-black ml-8 mt-5 sm:"></i>
+    <p class="lg:text-[18px] lg:ml-16 lg:-mt-6  lg:font-medium lg:text-gray-500 hover:text-black ml-14 -mt-6 sm:">
+        MVP Definition
+    </p>
+    <i class="lg:ml-10 lg:mt-4 lg:text-gray-500 hover:text-black fa-solid fa-arrow-right ml-8 mt-5 sm:"></i>
+    <p class="lg:text-[18px] lg:ml-16 lg:-mt-6  lg:font-medium lg:text-gray-500 hover:text-black ml-14 -mt-6 sm:">
+        Product Strategy
+    </p>
+    <h2 class="lg:underline lg:text-[#5956E9] lg:ml-10 lg:mt-4 lg:text-[18px] lg:font-bold hover:text-[#0056B3] ml-8 mt-5 sm:">
+        Read More
+    </h2>
+    <i class="lg:ml-36 block -mt-5 lg:text-[#5956E9] hover:text-[#0056B3] ml-[120px] sm: fa-solid fa-arrow-right"></i>
+</div>
+<div class="card1 w-auto bg-[#FAFAFB] md:w-[45%] md:mx-auto  py-8 border-2 border-gray-200 rounded-xl mt-5 w-auto sm:">
+    <i class="lg:text-[75px] lg:ml-10 lg:mt-10 text-[60px] mt-2 ml-8 sm: fa-solid fa-building-flag"></i>
+    <h1 class="lg:text-[25px] lg:font-bold lg:leading-[35px] lg:mt-5 lg:ml-10 text-[20px] ml-8 mt-5 font-bold sm: font-bold md:">
+        Development
+    </h1>
+    <i class="lg:ml-10 lg:mt-4 lg:text-gray-500 fa-solid fa-arrow-right hover:text-black ml-8 mt-5 sm:"></i>
+    <p class="lg:text-[18px] hover:text-black lg:ml-16 lg:-mt-6  lg:font-medium lg:text-gray-500 ml-14 -mt-6 sm:">
+        Product Management
+    </p>
+    <i class="lg:ml-10 lg:mt-4 lg:text-gray-500 fa-solid fa-arrow-right hover:text-black ml-8 mt-5 sm:"></i>
+    <p class="lg:text-[18px] lg:ml-16 lg:-mt-6  lg:font-medium lg:text-gray-500 hover:text-black ml-14 -mt-6 sm:">
+        MVP Definition
+    </p>
+    <i class="lg:ml-10 lg:mt-4 lg:text-gray-500 hover:text-black ml-8 mt-5 sm: fa-solid fa-arrow-right"></i>
+    <p class="lg:text-[18px] lg:ml-16 lg:-mt-6  lg:font-medium lg:text-gray-500 hover:text-black ml-14 -mt-6 sm:">
+        Product Strategy
+    </p>
+    <h2 class="lg:underline lg:text-[#5956E9] lg:ml-10 lg:mt-4 lg:text-[18px] lg:font-bold hover:text-[#0056B3] ml-8 mt-5 sm:">
+        Read More
+    </h2>
+    <i class="lg:ml-36 block -mt-5 lg:text-[#5956E9] hover:text-[#0056B3] ml-[120px] sm: fa-solid fa-arrow-right"></i>
+</div>
+</div>
+</div>
+<!-- sec3 End -->
+<!-- sec4 Start -->
+<div class="w-full h-auto p-1 border-box">
+    <h1 class="ml-10 text-[24px] font-bold leading-[32px] text-[#6F6EEB] mt-5">
+        Latest Work
+    </h1>
+    <p
+        class="ml-10 lg:text-[40px] lg:font-bold lg:leading-[60px] lg:tracking-[1.65px] lg:mt-0 text-[30px] leading-[40px] mt-5 md:text-[55px] md:py-7">
+        Professional Experience
+    </p>
+    <h2
+        class="ml-10 lg:text-[23px] lg:leading-[32px] lg:font-medium text-[#808285] lg:-mt-3 text-[25px] mt-5 leading-[28px]  sm:">
+        Professional Design Agency to provide solutions
+    </h2>
+    <div class="lg:w-[65%] lg:ml-5   lg:mt-8  lg:flex justify-evenly mt-10 flex-wrap gap-5 flex sm:w-[60%] sm:ml-5 md:w-full md:ml-0">
+    <h1 class="text1 font-bold text-[18px]">
+    Show All
+    </h1>
+    <h1 class="text1 text2 font-bold text-[18px]">
+    Design
+    </h1>
+    <h1 class="text1 text3 font-bold text-[18px]">
+    Branding
+    </h1>
+    <h1 class="text1 text4 font-bold text-[18px]">
+    Development
+    </h1>
+    <h1 class="text1 text5 font-bold text-[18px]">
+    SEO
+    </h1>
+    <h1 class="text1 text6 font-bold text-[18px]">
+    UX/UI Design
+    </h1>
+    </div>
+    <div class="mainblock w-[93%] lg:gap-8 p-1 border-box py-20  mx-auto  mt-0 lg:grid lg:grid-cols-3 lg:grid-rows-2 md:grid md:grid-cols-2 md:grid-rows-3 md:gap-8">
+    <div class="block">
+    <div class="img1 w-full lg:h-[50vh] mt-5  h-[40vh] sm:h-[90vh] md:h-[55vh] ">
+    <div class="gradient1 w-full lg:h-[50vh]  h-[40vh]  sm:h-full md:h-full">
+    <i class="positive text-3xl xl:ml-40 text-white lg:ml-32 text-center ml-32  sm:ml-72 md:ml-40 fa-solid fa-plus"></i>
+    </div>
+    </div>
+    <h1 class="font-bold text-[24px] mt-5 hover:text-[#5956E9]">
+    Dashboard Design
+    </h1>
+    <p class="text-[#808285] text-[18px] hover:text-[#5956E9]">
+    Creative Design
+    </p>
+    </div>
+    <div class="block">
+    <div class="img2 w-full lg:h-[50vh] h-[40vh] mt-5 sm:h-[90vh] md:h-[55vh]">
+        <div class="gradient2 w-full lg:h-[50vh] h-[40vh]  sm:h-full md:h-full">
+            <i class="positive1 text-3xl xl:ml-40 text-white lg:ml-32 text-center ml-32 sm:ml-72 md:ml-40 fa-solid fa-plus"></i>
+        </div>
+    </div>
+    <h1 class="font-bold text-[24px] mt-5 hover:text-[#5956E9]">
+        Landing Pages
+    </h1>
+    <p class="text-[#808285] text-[18px] hover:text-[#5956E9]">
+        Creative Design
+    </p>
+    </div>
+    <div class="block">
+    <div class="img3 w-full lg:h-[50vh]  h-[40vh] mt-5 sm:h-[90vh] md:h-[55vh]">
+        <div class="gradient3 w-full lg:h-[50vh]  h-[40vh]  sm:h-full md:h-full">
+            <i class="positive2 text-3xl xl:ml-40 text-white lg:ml-32 text-center ml-32  sm:ml-72 md:ml-40 fa-solid fa-plus"></i>
+        </div>
+    </div>
+    <h1 class="font-bold text-[24px] mt-5 hover:text-[#5956E9]">
+        Illustration Design
+    </h1>
+    <p class="text-[#808285] text-[18px] hover:text-[#5956E9]">
+        Creative Design
+    </p>
+    </div>
+    <div class="block">
+    <div class="img4 w-full lg:h-[50vh]  h-[40vh] mt-5 sm:h-[90vh] md:h-[55vh]">
+        <div class="gradient4 w-full lg:h-[50vh]  h-[40vh]  sm:h-full md:h-full">
+            <i class="positive3 text-3xl xl:ml-40 text-white lg:ml-32 text-center ml-32 sm:ml-72 md:ml-40 fa-solid fa-plus"></i>
+        </div>
+    </div>
+    <h1 class="font-bold text-[24px] mt-5 hover:text-[#5956E9]">
+        Dashboard Design
+    </h1>
+    <p class="text-[#808285] text-[18px] hover:text-[#5956E9]">
+        Creative Design
+    </p>
+    </div>
+    <div class="block">
+    <div class="img5 w-full lg:h-[50vh]  h-[40vh] mt-5 sm:h-[90vh] md:h-[55vh]">
+        <div class="gradient5 w-full lg:h-[50vh]  h-[40vh]  sm:h-full md:h-full">
+            <i class="positive4 text-3xl xl:ml-40 text-white lg:ml-32 text-center ml-32 sm:ml-72 md:ml-40 fa-solid fa-plus"></i>
+        </div>
+    </div>
+    <h1 class="font-bold text-[24px] mt-5 hover:text-[#5956E9]">
+        Apps Development
+    </h1>
+    <p class="text-[#808285] text-[18px] hover:text-[#5956E9]">
+        Creative Design
+    </p>
+    </div>
+    <div class="block">
+    <div class="img6 w-full lg:h-[50vh]  h-[40vh] mt-5 sm:h-[90vh] md:h-[55vh]">
+        <div class="gradient6 w-full lg:h-[50vh]  h-[40vh]  sm:h-full md:h-full">
+            <i class="positive5 text-3xl xl:ml-40 text-white lg:ml-32 text-center ml-32 sm:ml-72 md:ml-40 fa-solid fa-plus"></i>
+        </div>
+    </div>
+    <h1 class="font-bold text-[24px] mt-5 hover:text-[#5956E9]">
+        Website Design
+    </h1>
+    <p class="text-[#808285] text-[18px] hover:text-[#5956E9]">
+        Creative Design
+    </p>
+    </div>
+    </div>
+    <!-- sec4 End -->
+    <!-- sec5 Start -->
+    <div class="overflow-hidden lg:w-full  lg:h-auto bg-[#5956E9] p-1 border-box w-auto py-10  sm:">
+    <h1 class="text-white text-[24px]  font-bold mt-20 px-10   sm:ml-0 lg:ml-28">
+    Let’s Work
+    </h1>
+    <p class="text-white text-[25px]  font-bold tracking-[1.8px] leading-[40px]  mt-10 w-full ml-10 sm:text-[40px] sm:leading-loose md:text-[50px] md:leading-normal lg:ml-28">
+    Experience &<br>
+    innovative<span class="webkit1"> solutions</span>for<br>
+   <span class="webkit1 webkit2">creative</span> design &<br>
+    development<span class="webkit1 webkit3"> agency</span>
+    </p>
+    <button class="btn3 lg:w-56 lg:h-14 rounded-lg border-2 border-white  mt-10 w-44 ml-14 h-16 sm:w-56 sm:h-14 lg:ml-28">
+    Let's Work Together >
+    </button>
+    <div class="absolute roundedimg w-[50%] h-[50vh] rounded-[250px] ml-[520px] -mt-24 hidden sm:hidden md:hidden lg:hidden xl:block"></div>
+    </div>
+    <!-- sec5 End -->
+    <!-- sec6 Start -->
+    <div class="w-full py-5 lg:mt-48 p-1 border-box">
+        <h1 class="text-center text-[24px] font-bold leading-[32px] text-[#6F6EEB] mt-5">
+            Agency Statistics
+        </h1>
+        <p
+            class="text-center lg:text-[40px] lg:font-bold lg:leading-[60px] lg:tracking-[1.65px] lg:mt-0 text-[30px] leading-[40px] mt-5 md:text-[55px] md:py-7">
+            Why People’s Like Us
+        </p>
+        <h2
+            class="text-center lg:text-[23px] lg:leading-[32px] lg:font-medium text-[#808285] lg:-mt-3 text-[25px] mt-5 leading-[28px]  sm:">
+            Professional Design Agency to provide solutions
+        </h2>
+    <div class="mainsticker w-[93%] mx-auto md:grid md:grid-cols-2 md:grid-rows-2  lg:grid lg:grid-cols-4  lg:grid-rows-1 mt-10 text-[70px] p-1 border-box sm:">
+    <div class="sticker py-5">
+    <i class="mt-5 ml-10 text-[#6F6EEB] fa-solid fa-plane"></i>
+    <h1 class="ml-10 font-bold text-[55px]">
+    256+
+    </h1>
+    <p class="text-[18px] ml-10">
+    Project Complate
+    </p>
+    </div>
+    <div class="sticker py-5">
+    <i class="mt-5 ml-10 text-[#6F6EEB] fa-solid fa-crown"></i>
+    <h1 class="ml-10 font-bold text-[55px]">
+        783+
+    </h1>
+    <p class="text-[18px] ml-10">
+        Project Complate
+    </p>
+    </div>
+    <div class="sticker py-5">
+    <i class="mt-5 ml-10 text-[#6F6EEB] fa-solid fa-baseball"></i>
+    <h1 class="ml-10 font-bold text-[55px]">
+        97+
+    </h1>
+    <p class="text-[18px] ml-10">
+        Project Complate
+    </p>
+    </div>
+    <div class="sticker py-5">
+    <i class="mt-5 ml-10 text-[#6F6EEB] fa-regular fa-face-smile"></i>
+    <h1 class="ml-10 font-bold text-[55px]">
+        35+
+    </h1>
+    <p class="text-[18px] ml-10">
+        Project Complate
+    </p>
+    </div>
+    </div>
+    </div>
+    <!-- sec6 End -->
+    <!-- sec7 Start -->
+    <div class="w-full   p-1 border-box">
+    <h1 class="text-center text-[24px] font-bold leading-[32px] text-[#6F6EEB] mt-5">
+        Meet Our Team
+    </h1>
+    <p
+        class="text-center lg:text-[40px] lg:font-bold lg:leading-[60px] lg:tracking-[1.65px] lg:mt-0 text-[30px] leading-[40px] mt-5 md:text-[55px] md:py-7">
+        Experience Team Members
+    </p>
+    <h2
+        class="text-center lg:text-[23px] lg:leading-[32px] lg:font-medium text-[#808285] lg:-mt-3 text-[25px] mt-5 leading-[28px]  sm:">
+        Professional Design Agency to provide solutions
+    </h2>
+    <div class="pictures w-[93%] py-10 mx-auto mt-10 lg:gap-8 xl:gap-10  lg:grid lg:grid-cols-4 lg:grid-rows-1 md:grid md:grid-cols-2 md:grid-rows-2 ">
+    <div class="pic">
+    <div class="jpg1 w-[270px] h-[325px] lg:ml-5  rounded-[250px] sm:w-[500px] sm:h-[800px] sm:ml-8 md:w-[320px] md:h-[425px] md:mt-5 md:ml-0 lg:w-auto lg:h-[270px] ">
+    </div>
+    <div class="circle1 w-10 h-10 -mt-10 ml-14 bg-white rounded-full sm:ml-80 md:ml-56 lg:ml-40 xl:ml-44">
+    <i class="icon1 ml-4 mt-3 text-[#5956E9] fa-brands fa-facebook-f"></i>
+    </div>
+    <div class="circle1 w-10 h-10 -mt-8 ml-28 bg-white rounded-full sm:ml-64 md:ml-40 lg:ml-24 xl:ml-28">
+        <i class="icon1 ml-3 mt-3 text-[#5956E9] fa-solid fa-basketball"></i>
+    </div>
+    <div class="circle1 w-10 h-10 -mt-10 ml-44 bg-white rounded-full sm:ml-48 md:ml-24 lg:ml-8 lg:-mt-12 xl:ml-12">
+        <i class="icon1 ml-3 mt-3 text-[#5956E9] fa-brands fa-instagram"></i>
+    </div>
+    <h1 class="hover:text-[#5956E9] font-bold text-[24px] text-black text-center mt-5 sm:ml-8 lg:w-full lg:-ml-2">
+        Douglas J. Bleau
+    </h1>
+    <p class="text-gray-500 text-[20px] text-center">
+    UX/UI Designer
+    </p>
+    </div>
+     <div class="pic">
+        <div class="jpg2 w-[270px] h-[325px] rounded-[250px] mt-5 sm:w-[500px] sm:h-[800px] sm:ml-8 md:w-[320px] md:h-[425px] md:ml-2 lg:w-auto lg:h-[270px]">
+        </div>
+        <div class="circle1 w-10 h-10 -mt-10 ml-14 bg-white rounded-full sm:ml-80 md:ml-56 lg:ml-40 xl:ml-44">
+            <i class="icon1 ml-4 mt-3 text-[#5956E9] fa-brands fa-facebook-f"></i>
+        </div>
+        <div class="circle1 w-10 h-10 -mt-8 ml-28 bg-white rounded-full sm:ml-64  md:ml-40 lg:ml-24 xl:ml-28">
+            <i class="icon1 ml-3 mt-3 text-[#5956E9] fa-solid fa-basketball"></i>
+        </div>
+        <div class="circle1 w-10 h-10 -mt-10 ml-44 bg-white rounded-full sm:ml-48 md:ml-24 lg:ml-8 lg:-mt-12 xl:ml-12">
+            <i class="icon1 ml-3 mt-3 text-[#5956E9] fa-brands fa-instagram"></i>
+    </div>
+    <h1 class="hover:text-[#5956E9] font-bold text-[24px] text-black text-center mt-5">
+    Thomas M. Wilso
+    </h1>
+    <p class="text-gray-500 text-[20px] text-center">
+        Web Developer
+    </p>
+    </div>
+    <div class="pic">
+        <div class="jpg3 w-[270px] h-[325px] rounded-[250px] mt-5 sm:w-[500px] sm:h-[800px] sm:ml-8 md:ml-0 md:w-[320px] md:h-[425px] lg:w-auto lg:h-[270px]">
+        </div>
+        <div class="circle1 w-10 h-10 -mt-10 ml-14 bg-white rounded-full sm:ml-80 md:ml-56 lg:ml-40 xl:ml-44">
+            <i class="icon1 ml-4 mt-3 text-[#5956E9] fa-brands fa-facebook-f"></i>
+        </div>
+        <div class="circle1 w-10 h-10 -mt-8 ml-28 bg-white rounded-full sm:ml-64  md:ml-40 lg:ml-24 xl:ml-28">
+            <i class="icon1 ml-3 mt-3 text-[#5956E9] fa-solid fa-basketball"></i>
+        </div>
+        <div class="circle1 w-10 h-10 -mt-10 ml-44 bg-white rounded-full sm:ml-48 md:ml-24 lg:ml-8 lg:-mt-12 xl:ml-12">
+            <i class="icon1 ml-3 mt-3 text-[#5956E9] fa-brands fa-instagram"></i>
+    </div>
+    <h1 class="hover:text-[#5956E9] font-bold text-[24px] text-black text-center mt-5">
+    Robert J. Ryan
+    </h1>
+    <p class="text-gray-500 text-[20px] text-center">
+        SEO Marketing
+    </p>
+    </div>
+    <div class="pic">
+        <div class="jpg4 w-[270px] h-[325px] rounded-[250px] mt-5 sm:w-[500px] sm:h-[800px] sm:ml-8 md:w-[320px] md:h-[425px] md:ml-2 lg:w-auto lg:h-[270px]">
+        </div>
+        <div class="circle1 w-10 h-10 -mt-10 ml-14 bg-white rounded-full sm:ml-80 md:ml-56 lg:ml-40 xl:ml-44">
+            <i class="icon1 ml-4 mt-3 text-[#5956E9] fa-brands fa-facebook-f"></i>
+        </div>
+        <div class="circle1 w-10 h-10 -mt-8 ml-28 bg-white rounded-full sm:ml-64  md:ml-40 lg:-mt-8  lg:ml-24 xl:ml-28">
+            <i class="icon1 ml-3 mt-3 text-[#5956E9] fa-solid fa-basketball"></i>
+        </div>
+        <div class="circle1 w-10 h-10 -mt-10 ml-44 bg-white rounded-full sm:ml-48 md:ml-24 lg:ml-8 lg:-mt-12 xl:ml-12">
+            <i class="icon1 ml-3 mt-3 text-[#5956E9] fa-brands fa-instagram"></i>
+    </div>
+    <h1 class="hover:text-[#5956E9] font-bold text-[24px] text-black text-center mt-5">
+        Kenneth K. Joiner
+    </h1>
+    <p class="text-gray-500 text-[20px] text-center">
+        UX/UI Designer
+    </p>
+    </div>
+    </div>
+    </div>
+    <!-- sec7 End -->
+    <!-- sec8 Start -->
+    <div class="w-full h-auto py-10  p-1 border-box">
+        <h1 class="text-center text-[24px] font-bold leading-[32px] text-[#6F6EEB] mt-5">
+            Articles News
+        </h1>
+        <p
+            class="text-center font-bold lg:text-[40px] lg:font-bold lg:leading-[60px] lg:tracking-[1.65px] lg:mt-0 text-[30px] leading-[40px] mt-5 md:text-[55px] md:py-7">
+            Latest News & Blogs
+        </p>
+        <h2
+            class="text-center lg:text-[23px] lg:leading-[32px] lg:font-medium text-[#808285] lg:-mt-3 text-[25px] mt-5 leading-[28px]  sm:">
+            Professional Design Agency to provide solutions
+        </h2>
+        <div class="w-[93%]  mx-auto mt-10 md:flex-row lg:flex lg:gap-8">
+            <div
+                class="card1 w-auto bg-[#FAFAFB] md:w-[45%] md:mx-auto py-14  border-2 border-gray-200 rounded-xl mt-5  w-auto sm:">
+                <button class="w-24 ml-8 bg-[#5956E9] text-white h-10 rounded-lg">Design</button>
+                <h1
+                    class="lg:text-[24px] hover:text-[#5956E9] lg:font-bold lg:leading-[35px] lg:mt-5 lg:ml-10 text-[25px] ml-8 mt-5 font-bold sm:font-bold md:">
+                    Everything You Want To Know About
+                </h1>
+                <p
+                    class="lg:text-[18px] lg:mt-6  lg:font-medium lg:text-gray-500 hover:text-black ml-9 mt-6 text-[20px] sm:">
+                    Sit amet consectete adipising elit wedo eiusmod temeidiunt laboret dolore magna ways
+            </p>
+                <h2
+                    class="lg:underline lg:text-[#5956E9] lg:ml-10 lg:mt-4 lg:text-[18px] lg:font-bold hover:text-[#0056B3] ml-8 mt-5 sm:">
+                    Read More
+                </h2>
+                <i
+                    class="lg:ml-36 block -mt-5 lg:text-[#5956E9] hover:text-[#0056B3] ml-[120px] sm: fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="card1 w-auto bg-[#FAFAFB] md:w-[45%]  py-14 border-2 border-gray-200 rounded-xl mt-5 w-auto  sm: ">
+                <button class="w-24 ml-8 bg-[#5956E9] text-white h-10 rounded-lg">Design</button>
+                <h1
+                    class="lg:text-[24px] hover:text-[#5956E9] lg:font-bold lg:leading-[35px] lg:mt-5 lg:ml-10 text-[20px] ml-8 mt-5 font-bold sm:font-bold md:">
+                    Designing Better Links For Websites And Emails
+                </h1>
+                <p
+                    class="lg:text-[18px] hover:text-black lg:ml-9 lg:mt-6  lg:font-medium lg:text-gray-500 ml-9 mt-6 text-[20px] sm:">
+                    Sit amet consectete adipising elit wedo eiusmod temeidiunt laboret dolore magna ways
+                </p>
+                <h2
+                    class="lg:underline lg:text-[#5956E9] lg:ml-10 lg:mt-4 lg:text-[18px] lg:font-bold hover:text-[#0056B3] ml-8 mt-5 sm:">
+                    Read More
+                </h2>
+                <i
+                    class="lg:ml-36 block -mt-5 lg:text-[#5956E9] hover:text-[#0056B3] ml-[120px] sm: fa-solid fa-arrow-right"></i>
+            </div>
+            <div
+                class="card1 w-auto bg-[#FAFAFB] md:w-[45%] md:mx-auto  py-14 border-2 border-gray-200 rounded-xl mt-5 w-auto sm:">
+                <button class="w-24 ml-8 bg-[#5956E9] text-white h-10 rounded-lg">Design</button>
+                <h1
+                    class="lg:text-[24px] hover:text-[#5956E9] lg:font-bold lg:leading-[35px] lg:mt-5 lg:ml-10 text-[25px] ml-8 mt-5 font-bold sm: font-bold md:">
+                Everything You Want To Know About
+                </h1>
+                <p
+                    class="lg:text-[18px] hover:text-black lg:ml-9 lg:mt-6  lg:font-medium lg:text-gray-500 ml-9 mt-6 text-[20px] sm:">
+                    Sit amet consectete adipising elit wedo eiusmod temeidiunt laboret dolore magna ways
+                </p>
+                <h2
+                    class="lg:underline lg:text-[#5956E9] lg:ml-10 lg:mt-4 lg:text-[18px] lg:font-bold hover:text-[#0056B3] ml-8 mt-5 sm:">
+                    Read More
+                </h2>
+                <i
+                    class="lg:ml-36 block -mt-5 lg:text-[#5956E9] hover:text-[#0056B3] ml-[120px] sm: fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+    <button class="w-44 h-14 bg-[#5956E9] hover:bg-black text-white rounded-lg lg:ml-[42%] ml-14  sm:ml-52">View More News ></button>
+    <!-- sec8 End -->
+    <!-- footer start -->
+    <div class="secondlast w-full  mt-5 p-1 border-box">
+    <div class="w-[93%]  mx-auto  lg:gap-10 py-10  md:flex md:flex-row md:flex-wrap  md:justify-center md:gap-5 lg:flex lg:flex-row lg:flex-nowrap">
+    <div class="w-[20%]  w-full sm: md:w-[40%]">
+    <ul class="">
+    <li class="font-bold text-[24px] leading-[80px]">Services</li>
+    <li class="text-[18px] hover:underline hover:text-[#6663EB]">UX/UI Design</li>
+    <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Web Development</li>
+    <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">SEO Optimization</li>
+    <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Product Design</li>
+    <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Logo Design</li>
+    <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Brand Design</li>
+    </ul>
+    </div>
+    <div class="w-[20%]  w-full  sm: md:w-[40%]">
+        <ul class="">
+            <li class="font-bold text-[24px] leading-[80px]">Links</li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB]">About Agency</li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Latest News & Blog</li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Meet The Team</li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Popular Services</li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Testimonials</li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Need a Career?</li>
+        </ul>
+    </div>
+    <div class="w-[20%] w-full  sm: md:w-[40%]">
+        <ul class="">
+            <li class="font-bold text-[24px] leading-[80px]">Follow</li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB]">Dribbble
+            <i class="ml-5 text-[#6663EB] fa-solid fa-basketball"></i>
+            </li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Instagram
+            <i class="ml-3 text-[#6663EB] fa-brands fa-instagram"></i>
+            </li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Twitter
+            <i class="ml-9 text-[#6663EB] fa-brands fa-twitter"></i>
+            </li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Behance
+            <i class="ml-6 text-[#6663EB] fa-brands fa-behance"></i>
+            </li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Facebook
+            <i class="ml-4 text-[#6663EB] fa-brands fa-facebook-f"></i>
+            </li>
+            <li class="text-[18px] hover:underline hover:text-[#6663EB] mt-2">Medium
+            <i class="ml-6 text-[#6663EB] fa-solid fa-circle-play"></i>
+            </li>
+        </ul>
+    </div>
+    <div class="w-[30%]  w-full  sm: md:w-[40%] lg:w-auto">
+    <h1 class="text-[40px] font-bold">
+    Subscribe Our Newsletter
+    </h1>
+    <p class="text-[18px] text-gray-500 mt-4">
+    Natus errorsit voluptatem accusa dolore mque quae<span class="text-[#6663EB] underline">abillo inventore verita</span> achitec beatae vitae dicta sunt explicabo.
+    </p>
+    <input class="w-[330px] rounded-lg mt-5 h-[64px] bg-white w-auto px-5 sm:px-5 lg:w-[70%] lg:px-5 md:px-5" type="text" placeholder="Email Address">
+    <button class="absolute w-20 lg:-ml-28 mt-9 bg-[#5956E9] text-white h-10 rounded-lg -ml-7  md:ml-5 sm:ml-56">Sign Up</button>
+    </div>
+    </div>
+    </div>
+    <!-- footer End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
